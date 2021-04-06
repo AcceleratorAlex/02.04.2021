@@ -386,6 +386,7 @@ img {
     max-width: 1920px;
     height: 900px;
     bottom: 0px;
+    margin: 0 auto;
 }
 
 .header__background {
@@ -396,7 +397,7 @@ img {
 
 .header__list {
     position: sticky;
-    padding: 40px 952px 40px;
+    padding: 40px 952px 40px 10px;
     white-space: nowrap;
 }
 
@@ -470,6 +471,7 @@ img {
 .intro__background {
     height: 703px;
     background-color: #E5E5E5;
+    margin: 0 auto;
 }
 
 .intro__top {
@@ -495,7 +497,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 140px;
-    padding: 0px 405px;
+    padding: 0px 405px 0px 10px;
 }
 
 
@@ -559,13 +561,12 @@ img {
 /*Intro End */
 
 /*Standard Start */
-.standard {
-    position: relative;
-}
+.standard {}
 
 .standard__background {
     height: 797px;
     background: #F6F6F8;
+    margin: 0 auto;
 }
 
 .standard__card {}
@@ -574,6 +575,7 @@ img {
     float: right;
     padding-top: 100px;
     padding-right: 405px;
+    padding-left: 50px;
     padding-bottom: 90px;
 }
 
@@ -589,6 +591,7 @@ img {
     color: #323232;
     white-space: nowrap;
     padding-top: 150px;
+    padding-right: 10px;
     padding-left: 405px;
     padding-bottom: 40px;
 }
@@ -599,12 +602,13 @@ img {
     color: #999999;
     white-space: nowrap;
     padding-left: 405px;
+    padding-right: 10px;
     padding-bottom: 30px;
 }
 
 .standard__link {
     display: block;
-    padding: 0px 405px 0px 408px;
+    padding: 0px 405px 10px 408px;
 }
 
 .standard__link__a {
@@ -622,6 +626,7 @@ img {
     grid-template-columns: repeat(5, 1fr);
     column-gap: 100px;
     padding: 50px 500px;
+    padding-right: 10px;
 }
 
 .standard__card-1 {
@@ -637,6 +642,7 @@ img {
 
 .standard__pic__thumb-1 {
     padding-top: 10px;
+    padding-right: 10px;
     display: block;
 }
 
@@ -645,6 +651,7 @@ img {
     line-height: 53px;
     color: #000000;
     padding-left: 50px;
+    padding-right: 10px;
 
 }
 
@@ -653,6 +660,7 @@ img {
     line-height: 25px;
     color: #999999;
     white-space: nowrap;
+    padding-right: 10px;
     padding-bottom: 70px;
 }
 
@@ -668,7 +676,7 @@ img {
 .work__background {
     height: 490px;
     background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
-
+    margin: 0 auto;
 }
 
 .work__top {}
@@ -680,6 +688,7 @@ img {
 .work__link {
     float: right;
     padding-top: 120px;
+    padding-left: 100px;
     padding-right: 405px;
     padding-bottom: 0px;
 }
@@ -705,6 +714,7 @@ img {
     color: #FFFFFF;
     white-space: nowrap;
     padding: 100px 405px;
+    padding-right: 10px;
     padding-bottom: 0px;
 }
 
@@ -731,6 +741,8 @@ img {
     line-height: 22px;
     color: black;
     padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .work__pic__description {
@@ -748,6 +760,8 @@ img {
     text-decoration-line: underline;
     color: #4985FF;
     padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .work__line {
@@ -765,6 +779,7 @@ img {
 .project__background {
     height: 776px;
     background: #F6F6F8;
+    margin: 0 auto;
 
 }
 
@@ -838,6 +853,7 @@ img {
     background: url(../img/Bottom.jpg) no-repeat center;
     background-size: cover;
     height: 570px;
+    margin: 0 auto;
 }
 
 .video__top {}
@@ -902,6 +918,7 @@ img {
     display: block;
     padding-top: 0px;
     padding-left: 670px;
+    padding-right: 100px;
     padding-bottom: 35px;
 }
 
@@ -962,20 +979,21 @@ img {
 .bottom__background {
     height: 413px;
     background: #F6F6F8;
+    margin: 0 auto;
 }
 
 .bottom__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 50px;
-    padding: 0px 405px;
+    column-gap: 70px;
+    padding: 0px 405px 0px 0px;
     justify-content: center;
 }
 
 .bottom__card {
     grid-column: span 1;
     margin-bottom: 0px;
-    padding: 0px 0px;
+    padding: 0px 10px 0px 10px;
 }
 
 .bottom__info {
@@ -985,7 +1003,9 @@ img {
     color: #000000;
     white-space: nowrap;
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 00px;
 }
 
 .bottom__text {
@@ -994,7 +1014,9 @@ img {
     color: #999999;
     white-space: nowrap;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
 }
 
 .bottom__messenj {
@@ -1009,6 +1031,8 @@ img {
     color: #999999;
     white-space: nowrap;
     padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 
@@ -1024,7 +1048,9 @@ img {
     color: #999999;
     white-space: nowrap;
     padding-top: 0px;
-    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .bottom__maps {
@@ -1035,7 +1061,7 @@ img {
 
 .bottom__arrow {
     float: left;
-    padding-top: 5 px;
+    padding-top: 10px;
     margin-right: 10px;
 }
 
@@ -1045,6 +1071,8 @@ img {
     color: #999999;
     white-space: nowrap;
     padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 
@@ -1064,70 +1092,32 @@ img {
 
 /*Media start*/
 
+@media screen and (max-width: 1440px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
 @media screen and (max-width: 960px) {
-    .intro {
-        margin-bottom: 75px;
+    .wrapper {
+        max-width: 767px;
     }
+}
 
-    .intro__card {
-        margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+    .wrapper {
+        max-width: 500px;
     }
+}
 
-    .intro__cards {
-        padding: 0 15px;
-        column-gap: 35px;
-    }
-
-    .intro__top {
-        padding: 55px 15px;
-    }
-
-    .intro__background {
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-
-    .places__card_size_lg {
-        -ms-grid-column-span: 6;
-        grid-column: span 6;
-    }
-
-    .places__card_size_sm {
-        -ms-grid-column-span: 6;
-        grid-column: span 6;
-    }
-
-    .tours__tour {
-        column-gap: 35px;
-    }
-
-    .tour__info {
-        padding-left: 0;
-    }
-
-    .tour__title {
-        margin-bottom: 15px;
-    }
-
-    .tour__desc {
-        margin-bottom: 15px;
-    }
-
-    .top__cards {
-        column-gap: 25px;
-        row-gap: 55px;
-    }
-
-    .top__card {
-        -ms-grid-column-span: 3;
-        grid-column: span 3;
-    }
-
-    .top__card-pic {
-        margin-bottom: 25px;
-    }
-
-    .footer {
-        padding: 60px 0;
+@media screen and (max-width: 500px) {
+    .wrapper {
+        max-width: 300px;
     }
 }
